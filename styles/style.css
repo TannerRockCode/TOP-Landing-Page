@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.topheader {
+    display: inline-flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    color: white;
+    justify-content: flex-end;
+}
+
+.topheader ul {
+    list-style: none;
+}
+
+.topheader a {
+    padding: 0px 10px;
+}
+
+.websiteintrosection {
+    padding: 100px 0px;
+}
+
+.colorsection1 {
+    color:white;
+    background-color: darkblue;
+}
+
+.pagecontent {
+    padding: 0px 200px;
+    align-items: center;
+}
+
+.introcardsection {
+    padding: 40px 0px 75px;
+}
+
+.introcardsection h1 {
+    text-align: center;
+}
+
+.introcards {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.introcard {
+    border-radius: 15px;
+    width: 150px;
+    height: 190px;
+    padding: 20px;
+    background-color: lightgreen;
+    text-align: center;
+    
+}
+
+.introCTA {
+    background-color: lightblue;
+    height: 125px;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.colorsection3 {
+    background-color:lightgray;
+}
+
+.intromotto {
+    padding: 100px 0px;
+}
+
+.introfooter {
+    display: flex;
+    justify-content: center;
+}
