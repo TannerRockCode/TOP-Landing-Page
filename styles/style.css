@@ -15,12 +15,18 @@ body {
     width: 100%;
 }
 
+.headerlogo h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .headerlinks {
     display: flex;
     flex-direction: row;
-    background-color: darkblue;
     color: white;
     justify-content: flex-end;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .topheader ul {
@@ -33,11 +39,42 @@ body {
 
 .websiteintrosection {
     padding: 100px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.websiteintroinfo h1 {
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.websiteintroinfo p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.websiteintroinfo button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+.websiteintroimg img {
+    height: 300px;
+    width: 600px;
+    padding-left: 30px;
 }
 
 .colorsection1 {
     color:white;
-    background-color: darkblue;
+    background-color: #1F2937;
 }
 
 .pagecontent {
@@ -63,22 +100,60 @@ body {
 
 .introcard {
     border-radius: 15px;
-    width: 150px;
-    height: 190px;
+    width: 250px;
+    height: 325x;
     padding: 20px;
-    background-color: lightgreen;
     text-align: center;
     
 }
 
+.introcard img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    border: 5px solid blue;
+}
+
 .introCTA {
-    background-color: lightblue;
+    border-radius: 10px;
+    background-color: #3882F6;
     height: 125px;
     width: 100%;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
     margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.introCTAcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 40px;
+    width: 70%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.introCTAcontent h3{
+    margin-bottom: 0px;
+}
+
+.introCTAbutton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+
+}
+
+.introCTAbutton button{
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    font-weight: bold;
+    border: 2px white solid;
+    border-radius: 10px;
 }
 
 .colorsection3 {
@@ -87,6 +162,14 @@ body {
 
 .intromotto {
     padding: 100px 0px;
+}
+
+.intromotto p {
+    float: right;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkslategrey;
 }
 
 .introfooter {
